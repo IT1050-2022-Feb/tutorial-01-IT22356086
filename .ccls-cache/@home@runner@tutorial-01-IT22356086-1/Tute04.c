@@ -27,9 +27,6 @@ int minimum( int no1 , int no2 )
 
   no1 = min;
   if( min < no2)
-    min = no1;
-     else
-       min = no2;  
   return min; 
 }
 
@@ -40,12 +37,10 @@ int maximum( int no1 , int no2)
   no1 = max;
   if( max > no2 )
     max = no1;
-     else 
-       max = no2;
   return max;
 }
 
 int multiply( int no1 , int no2)
 {
-  return no1 * no2;
+  
 }
